@@ -6,14 +6,23 @@ namespace IsTodayXmasTests
 {
     public class HolidayTests
     {
+        private FakeHoliday _holiday = new FakeHoliday();
+
         [Fact]
         public void today_is_Xmas()
         {
-            var holiday = new FakeHoliday();
-//            var holiday = new Holiday();
-            holiday.SetToday(new DateTime(2011,12,25));
-            var response = holiday.SayXmas();
-            Assert.Equal("Merry Xmas", response);
+            GivenToday(month: 12, day: 25);
+            SayXmasShouldResponse(expected: "Merry Xmas");
+        }
+
+        private void SayXmasShouldResponse(string expected)
+        {
+            Assert.Equal(expected, _holiday.SayXmas());
+        }
+
+        private void GivenToday(int month, int day)
+        {
+            _holiday.SetToday(new DateTime(2011, month, day));
         }
     }
 
