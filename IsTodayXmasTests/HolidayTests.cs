@@ -15,6 +15,20 @@ namespace IsTodayXmasTests
             SayXmasShouldResponse(expected: "Merry Xmas");
         }
 
+        [Fact]
+        public void today_is_Xmas_12_24()
+        {
+            GivenToday(month: 12, day: 24);
+            SayXmasShouldResponse(expected: "Merry Xmas");
+        }
+
+        [Fact]
+        public void today_is_not_Xmas()
+        {
+            GivenToday(month: 11, day: 25);
+            SayXmasShouldResponse(expected: "Today is not Xmas");
+        }
+
         private void SayXmasShouldResponse(string expected)
         {
             Assert.Equal(expected, _holiday.SayXmas());
