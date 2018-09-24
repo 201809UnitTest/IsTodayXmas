@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsTodayXmas", "IsTodayXmas\IsTodayXmas.csproj", "{18EBA609-3533-4974-AD71-14B61820B3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsTodayXmasTests", "IsTodayXmasTests\IsTodayXmasTests.csproj", "{3D6B85B2-4781-4556-8B8F-3159024676ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18EBA609-3533-4974-AD71-14B61820B3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EBA609-3533-4974-AD71-14B61820B3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EBA609-3533-4974-AD71-14B61820B3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EBA609-3533-4974-AD71-14B61820B3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6B85B2-4781-4556-8B8F-3159024676ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6B85B2-4781-4556-8B8F-3159024676ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6B85B2-4781-4556-8B8F-3159024676ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6B85B2-4781-4556-8B8F-3159024676ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

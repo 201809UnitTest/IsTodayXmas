@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\joeychen\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\joeychen\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\joeychen\.nuget\packages\xunit.runner.visualstudio\2.3.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\joeychen\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\joeychen\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_IsTodayXmas.-1735978288.00" t="ExcludeRecursive" />
+    <e p="C:\Users\joeychen\RiderProjects\IsTodayXmas" t="IncludeFlat">
+      <e p="IsTodayXmas" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Holiday.cs" t="Include" />
+        <e p="IsTodayXmas.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="IsTodayXmas.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="IsTodayXmas.sln" t="IncludeFlat" />
+      <e p="IsTodayXmasTests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="HolidayTests.cs" t="Include" />
+        <e p="IsTodayXmasTests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="IsTodayXmasTests.AssemblyInfo.cs" t="Include" />
+              <e p="IsTodayXmasTests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
